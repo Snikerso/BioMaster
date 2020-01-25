@@ -4,9 +4,12 @@ import {Link}from 'react-router-dom'
 function Navigation() {
   return (
     <>
-        <Link>Budynki</Link>
-        <Link>Badania</Link>
+        <Link to="/base">Base</Link>
+        <Link to="/buildings">Buildings</Link>
+        <Link>Skills</Link>
         <Link>Dom Genetyki</Link>
+        <Link to="/map">Map</Link>
+        <Link></Link>
 
     </>
   );
