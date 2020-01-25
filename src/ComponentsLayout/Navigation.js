@@ -1,9 +1,9 @@
 import './App.css';
 
-function App() {
+function Navigation() {
   return (
     <div></div>
   );
 }
 
-export default App;
+export default Navigation;
