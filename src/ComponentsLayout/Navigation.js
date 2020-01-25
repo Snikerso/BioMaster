@@ -1,8 +1,14 @@
-import './App.css';
+import React from 'react'
+import {Link}from 'react-router-dom'
 
 function Navigation() {
   return (
-    <div></div>
+    <>
+        <Link>Budynki</Link>
+        <Link>Badania</Link>
+        <Link>Dom Genetyki</Link>
+
+    </>
   );
 }
 
